@@ -1,4 +1,49 @@
-body{
-    margin: 0;
-    padding: 0;
+#container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.letterBox{
+    border-bottom: 1px solid black;
+    height: auto;
+    width: 6%;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.letter{
+    width: 100%;
+}
+
+#holderDiv{
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+
+#guessedLettersDiv{
+    margin: 30px auto 0 auto;
+
+    width: 70%;
+    overflow: hidden;
+}
+
+.wrongLetterBox{
+    border-bottom: 1px solid black;
+    height: auto;
+    width: 6%;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+.wrongLetter{
+    width: 100%;
 }

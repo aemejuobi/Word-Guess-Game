@@ -4,10 +4,48 @@
     <meta charset="utf-8" />
     <title>Word Guess Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <script src="assets/js/script.js"></script>
 </head>
 <body>
-    
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">HANGMAN</h1>
+          <p class="lead">Automotive Edition.</p>
+        </div>
+    </div>
+
+    <div id="container">
+        <p>Press any key to get started!</p>
+        <p>Wins: <span id="wins"></span></p>
+        <p>Remaining Guesses: <span id="remainingGuesses">10</span></p>
+        
+        <div id="holderDiv">
+            <!-- <div class="letterBox">
+                <span class="letter">p</span>
+            </div>
+            <div class="letterBox">
+                <span class="letter">p</span>
+            </div>
+            <div class="letterBox">
+                <span class="letter">p</span>
+            </div> -->
+        </div>
+
+        <div id="guessedLettersDiv">
+            <!-- <div class="wrongLetterBox">
+                <span class="wrongLetter">d</span>
+            </div>
+
+            <div class="wrongLetterBox">
+                <span class="wrongLetter">d</span>
+            </div> -->
+            
+        </div>
+        
+        
+    </div>
+
 </body>
 </html>
