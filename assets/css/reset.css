@@ -5,20 +5,22 @@
     overflow: hidden;
 }
 
-.letterBox{
+/* .letterBox{
     border-bottom: 1px solid black;
     height: auto;
-    width: 6%;
+    width: auto;
     font-size: 20px;
     text-align: center;
     float: left;
     margin-right: 10px;
     font-weight: 800;
-}
+} */
 
-.letter{
+/* #word{
+    font-weight: bold;
+    margin: 0 auto;
     width: 100%;
-}
+} */
 
 #holderDiv{
     margin: 0 auto;
@@ -28,12 +30,11 @@
 
 #guessedLettersDiv{
     margin: 30px auto 0 auto;
-
     width: 70%;
     overflow: hidden;
 }
 
-.wrongLetterBox{
+#wrongLetterBox{
     border-bottom: 1px solid black;
     height: auto;
     width: 6%;
@@ -44,6 +45,7 @@
     font-weight: 800;
 }
 
-.wrongLetter{
+#wrongLetter{
     width: 100%;
+    color: red;
 }
